@@ -8,10 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This project focuses on scraping smartphone pricing data from various online retailers using Selenium WebDriver and then visualizing the pricing trends using Chart.js and jQuery.",
   "dependencies": {
+    "chart.js": "^4.4.1",
+    "chromedriver": "^121.0.1",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "geckodriver": "^4.3.2",
     "selenium-webdriver": "^4.17.0"
   }
 }

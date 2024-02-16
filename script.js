@@ -18,7 +18,6 @@ app.set("view engine", "ejs");
 
 const scrapedData = [];
 
-// Function to scrape smartphone pricing data from kigali discount website
 async function scrapeWebsite1() {
   let driver = await new Builder()
     .forBrowser("firefox")
